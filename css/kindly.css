@@ -1263,6 +1263,21 @@ strong {
   background-size: 100% 100%;
 }
 
+
+.onhover {
+  transition-timing-function: ease-out;
+  transition-duration: 500ms;
+}
+
+.onhover:hover {
+  scale: 0.95;
+  transition-timing-function: ease-in-out;
+  transition-duration: 500ms;
+  box-shadow: 0px 0px 20px 0px #f8564b;
+  border-radius: 15px;
+  padding: 10px;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   h2 {
